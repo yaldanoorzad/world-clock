@@ -43,6 +43,10 @@ function updatecity(event){
                 </div>
                 <div id="time">${cityTime.format("HH:mm:ss")} <small>${cityTime.format("A")}</small></div>
         </div>`
+    
+    let ending = document.querySelector(".ending");
+    ending.innerHTML = `<a href="https://my-world-clock-projectt.netlify.app/">show all cities</a>`;
+
 }
 
 let selectcity = document.querySelector("#select-cities");
